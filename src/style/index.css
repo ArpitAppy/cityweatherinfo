@@ -1,0 +1,32 @@
+html, body{
+    /* background-image: url('../images/homeBackground.jpg'); */
+    background: ghostwhite;
+}
+
+.mainContainer{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.innerContainer{
+    background: lightblue;
+    padding: 20px;
+}
+
+.selectContainer{
+    width: 240px;
+    padding: 10px;
+    
+}
+
+button{
+    background-color: #fc8019;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
